@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Riddle Website</title>
+</head>
+<body>
+    <center>
+        <div class="header">
+            <div class="welcome-section">
+                <h1>Treasure Hunting !!!!</h1>
+                <h2>Solve the riddle , get a clue </h2>
+            </div>
+            <!-- <div class="go-section">
+                <h3>Go</h3>
+                <a href="#question-section"><img width="100" height="100" src="./Images/go-icon.png"></a>
+            </div> -->
+        </div>
+        <div class="container" id="question-section">
+            <div class="question">
+                <p id="riddle">Question.</p>
+                <p>There are three houses in a straight line: one red, one blue,one green,The red house is left to blue house,and blue os to left of green.Where is the white house? ? </p>
+            </div>
+            <div class="Answer">
+                <label for="answer">Your Answer:</label>
+                <input type="text" id="answer">
+                <button onclick="checkAnswer()">Submit</button>
+            </div>
+            <script src="script.js"></script>
+            <p id="correct"></p>
+        </div>
+    </center>
+</body>
+</html>
